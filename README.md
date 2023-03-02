@@ -16,6 +16,8 @@ Many thanks to the organizations and companies that provide amazing tools, model
 
 ## 🥅 Leaderboard
 
+🚧 Under active development, please stay tuned ~
+
 | Model   | Task             | Dataset | Setting   | Score Type | Score | Ref                                                   |
 | :------ | :--------------- | :------ | :-------- | :--------- | ----: | :---------------------------------------------------- |
 | ChatGPT | Event Extraction | ACE05   | zero-shot | F1         |  29.5 | ([Wei et al. 2023](https://arxiv.org/abs/2302.10205)) |
