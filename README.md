@@ -16,9 +16,9 @@ Many thanks to the organizations and companies that provide amazing tools, model
 
 ## 🥅 Leaderboard
 
-|Dataset|Task|Model|Score Type|Score|
-|:-|:-|:-|:-|-:|
-||||||
+| Model   | Task             | Dataset | Setting   | Score Type | Score | Ref                                                   |
+| :------ | :--------------- | :------ | :-------- | :--------- | ----: | :---------------------------------------------------- |
+| ChatGPT | Event Extraction | ACE05   | zero-shot | F1         |  29.5 | ([Wei et al. 2023](https://arxiv.org/abs/2302.10205)) |
 
 ## 📑 Papers
 
@@ -31,6 +31,11 @@ _Xuanting Chen, Junjie Ye, Can Zu, Nuo Xu, Rui Zheng, Minlong Peng, Jie Zhou, Ta
 _Yejin Bang, Samuel Cahyawijaya, Nayeon Lee, Wenliang Dai, Dan Su, Bryan Wilie, Holy Lovenia, Ziwei Ji, Tiezheng Yu, Willy Chung, Quyet V. Do, Yan Xu, Pascale Fung_<br />
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-black) ![Natural Language Understanding](https://img.shields.io/badge/NLU-red) ![Generation](https://img.shields.io/badge/NLG-green) ![Translation](https://img.shields.io/badge/MT-orange)
 > This paper proposes a framework for quantitatively evaluating interactive LLMs such as ChatGPT using publicly available data sets. We carry out an extensive technical evaluation of ChatGPT using 23 data sets covering 8 different common NLP application tasks. We evaluate the multitask, multilingual and multi-modal aspects of ChatGPT based on these data sets and a newly designed multimodal dataset. We find that ChatGPT outperforms LLMs with zero-shot learning on most tasks and even outperforms fine-tuned models on some tasks. We find that it is better at understanding non-Latin script languages than generating them. It is able to generate multimodal content from textual prompts, via an intermediate code generation step. Moreover, we find that ChatGPT is 63.41% accurate on average in 10 different reasoning categories under logical reasoning, non-textual reasoning, and commonsense reasoning, hence making it an unreliable reasoner. It is, for example, better at deductive than inductive reasoning. ChatGPT suffers from hallucination problems like other LLMs and it generates more extrinsic hallucinations from its parametric memory as it does not have access to an external knowledge base. Finally, the interactive feature of ChatGPT enables human collaboration with the underlying LLM to improve its performance, i.e, 8% ROUGE-1 on summarization and 2% ChrF++ on machine translation, in a multi-turn "prompt engineering" fashion. We also release codebase for evaluation set extraction.
+
+[arXiv 2023] [**Zero-Shot Information Extraction via Chatting with ChatGPT**](https://arxiv.org/abs/2302.10205)<br />
+_Xiang Wei, Xingyu Cui, Ning Cheng, Xiaobin Wang, Xin Zhang, Shen Huang, Pengjun Xie, Jinan Xu, Yufeng Chen, Meishan Zhang, Yong Jiang, Wenjuan Han_<br />
+![ChatGPT](https://img.shields.io/badge/ChatGPT-black) ![Information Extraction](https://img.shields.io/badge/IE-blue)
+> Zero-shot information extraction (IE) aims to build IE systems from the unannotated text. It is challenging due to involving little human intervention. Challenging but worthwhile, zero-shot IE reduces the time and effort that data labeling takes. Recent efforts on large language models (LLMs, e.g., GPT-3, ChatGPT) show promising performance on zero-shot settings, thus inspiring us to explore prompt-based methods. In this work, we ask whether strong IE models can be constructed by directly prompting LLMs. Specifically, we transform the zero-shot IE task into a multi-turn question-answering problem with a two-stage framework (ChatIE). With the power of ChatGPT, we extensively evaluate our framework on three IE tasks: entity-relation triple extract, named entity recognition, and event extraction. Empirical results on six datasets across two languages show that ChatIE achieves impressive performance and even surpasses some full-shot models on several datasets (e.g., NYT11-HRL). We believe that our work could shed light on building IE models with limited resources.
 
 [arXiv 2023] [**Can ChatGPT Understand Too? A Comparative Study on ChatGPT and Fine-tuned BERT**](https://arxiv.org/abs/2302.10198)<br />
 _Qihuang Zhong, Liang Ding, Juhua Liu, Bo Du, Dacheng Tao_<br />
