@@ -13,14 +13,7 @@ Many thanks to the organizations and companies that provide amazing tools, model
 - Natural Language Generation: ![Generation](https://img.shields.io/badge/NLG-green)
 - Natural Language Understanding: ![Natural Language Understanding](https://img.shields.io/badge/NLU-red)
 - Information Extraction: ![Information Extraction](https://img.shields.io/badge/IE-blue)
-
-## 🥅 Leaderboard
-
-🚧 Under active development, please stay tuned ~
-
-| Model   | Task             | Dataset | Setting   | Score Type | Score | Ref                                                   |
-| :------ | :--------------- | :------ | :-------- | :--------- | ----: | :---------------------------------------------------- |
-| ChatGPT | Event Extraction | ACE05   | zero-shot | F1         |  29.5 | ([Wei et al. 2023](https://arxiv.org/abs/2302.10205)) |
+- Grammar Error Correction: ![Grammar Error Correction](https://img.shields.io/badge/GEC-b31b1b)
 
 ## 📑 Papers
 
@@ -63,6 +56,12 @@ _Jun Gao, Huan Zhao, Changlong Yu, Ruifeng Xu_<br />
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-black) ![Information Extraction](https://img.shields.io/badge/IE-blue)
 
 > Event extraction is a fundamental task in natural language processing that involves identifying and extracting information about events mentioned in text. However, it is a challenging task due to the lack of annotated data, which is expensive and time-consuming to obtain. The emergence of large language models (LLMs) such as ChatGPT provides an opportunity to solve language tasks with simple prompts without the need for task-specific datasets and fine-tuning. While ChatGPT has demonstrated impressive results in tasks like machine translation, text summarization, and question answering, it presents challenges when used for complex tasks like event extraction. Unlike other tasks, event extraction requires the model to be provided with a complex set of instructions defining all event types and their schemas. To explore the feasibility of ChatGPT for event extraction and the challenges it poses, we conducted a series of experiments. Our results show that ChatGPT has, on average, only 51.04% of the performance of a task-specific model such as EEQA in long-tail and complex scenarios. Our usability testing experiments indicate that ChatGPT is not robust enough, and continuous refinement of the prompt does not lead to stable performance improvements, which can result in a poor user experience. Besides, ChatGPT is highly sensitive to different prompt styles.
+
+[arXiv 2023] [**ChatGPT or Grammarly? Evaluating ChatGPT on Grammatical Error Correction Benchmark**](https://arxiv.org/abs/2303.13648)<br />
+_Haoran Wu, Wenxuan Wang, Yuxuan Wan, Wenxiang Jiao, Michael Lyu_<br />
+![ChatGPT](https://img.shields.io/badge/ChatGPT-black) ![Grammar Error Correction](https://img.shields.io/badge/GEC-b31b1b)
+
+> ChatGPT is a cutting-edge artificial intelligence language model developed by OpenAI, which has attracted a lot of attention due to its surprisingly strong ability in answering follow-up questions. In this report, we aim to evaluate ChatGPT on the Grammatical Error Correction(GEC) task, and compare it with commercial GEC product (e.g., Grammarly) and state-of-the-art models (e.g., GECToR). By testing on the CoNLL2014 benchmark dataset, we find that ChatGPT performs not as well as those baselines in terms of the automatic evaluation metrics (e.g., F0.5 score), particularly on long sentences. We inspect the outputs and find that ChatGPT goes beyond one-by-one corrections. Specifically, it prefers to change the surface expression of certain phrases or sentence structure while maintaining grammatical correctness. Human evaluation quantitatively confirms this and suggests that ChatGPT produces less under-correction or mis-correction issues but more over-corrections. These results demonstrate that ChatGPT is severely under-estimated by the automatic evaluation metrics and could be a promising tool for GEC.
 
 
 ## 🔑 License
